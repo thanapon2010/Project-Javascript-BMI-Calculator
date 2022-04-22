@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <script src="BMI.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <center>
+                <h1>BMI Calculator</h1>
+                <table class="bmi-table">
+                    <tbody>
+                    </center>
+                        <tr class="f">
+                            <th><strong>BMI</sup></strong></th>
+                            <th><strong>Category</strong></th>
+                        </tr>
+                        <tr>
+                            <td><span> &lt; 16</span></td>
+                            <td><span> Severe Thinness </span></td>
+                        </tr>
+                        <tr>
+                            <td><span> 16 - 17</span></td>
+                            <td><span> Moderate Thinness </span></td>
+                        </tr>
+                        <tr>
+                            <td><span> 17 - 18.5</span></td>
+                            <td><span> Mild Thinness </span></td>
+                        </tr>
+                        <tr>
+                            <td><span> 18.50 - 25</span></td>
+                            <td><span> Normal </span></td>
+                        </tr>
+                        <tr>
+                            <td><span> 25 - 30</span></td>
+                            <td><span> Overweight </span></td>						
+                        </tr>
+                        <tr>
+                            <td><span> 30 - 35</span></td>
+                            <td><span> Obese Class I </span></td>						
+                        </tr>
+                        <tr>
+                            <td><span> 35 - 40</span></td>
+                            <td><span> Obese Class II </span></td>
+                        </tr>
+                        <tr>
+                            <td><span> &gt; 40</span></td>
+                            <td><span> Obese Class III </span></td>						
+                        </tr>
+                    </tbody>
+                </table>
+            <div class="box">
+                <p>ส่วนสูง (cm)</p>
+                <input type="text" id="height">
+                <p>น้ำหนัก (kg)</p>
+                <input type="text" id="weight">
+                <button id="btn">คำนวณ</button>
+            </div>
+            <center>
+                <div id="result"></div>
+            </center>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
